@@ -2,7 +2,8 @@ DOCKER_NAME=mongo
 Hub_Addr=xxxx.com/public
 
 APP_VER=3.2
-SHARE_PATH=/data/share/docker/mongo/3.2
+SHARE_PATH=/data/share/docker/${DOCKER_NAME}/${APP_VER}
+
 
 build:
 	docker build -t ${DOCKER_NAME}:${APP_VER} .

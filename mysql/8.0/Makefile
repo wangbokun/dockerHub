@@ -2,7 +2,8 @@ DOCKER_NAME=mysql
 Hub_Addr=xxxx.com/public
 
 APP_VER=8.0
-SHARE_PATH=/data/share/docker/mysql/8.0
+SHARE_PATH=/data/share/docker/${DOCKER_NAME}/${APP_VER}
+
 
 build:
 	docker build -t ${DOCKER_NAME}:${APP_VER} .

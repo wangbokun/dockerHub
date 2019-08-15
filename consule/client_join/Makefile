@@ -2,7 +2,8 @@ DOCKER_NAME=consul
 Hub_Addr=xxxx.com/public
 
 APP_VER=1.4.4
-SHARE_PATH=/data/share/docker/consul/1.4.4
+SHARE_PATH=/data/share/docker/${DOCKER_NAME}/${APP_VER}
+
 S_IP=10.10.10.1
 
 build:

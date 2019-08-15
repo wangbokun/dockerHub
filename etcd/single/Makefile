@@ -7,7 +7,8 @@ GITHUB_URL=https://github.com/etcd-io/etcd/releases/download
 DOWNLOAD_URL=${GITHUB_URL}
 DOWNLOAD_LOCAL_PATH=./files
 
-SHARE_PATH=/data/share/docker/etcd
+SHARE_PATH=/data/share/docker/${DOCKER_NAME}/${APP_VER}
+
 
 mkPath:
 	mkdir -p ${DOWNLOAD_LOCAL_PATH}	
