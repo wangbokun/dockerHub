@@ -9,7 +9,7 @@
     * [x] 5.7
     * [x] 8.0
 * [x] Grafana
-* [ ] Redis
+* [x] Redis
 * [x] Mongodb
 * [ ] ES
 * [ ] Zk
@@ -17,7 +17,7 @@
     * [x] Single
     * [x] Cluster join
     * [x] Client join
-* [ ] Nginx
+* [x] Nginx
 * [ ] Promethues
     * [ ] promethues service
     * [ ] alertManager
