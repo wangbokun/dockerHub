@@ -11,12 +11,13 @@
 * [x] Grafana
 * [x] Redis
 * [x] Mongodb
-* [ ] ES
-* [ ] Zk
 * [x] Consoul
     * [x] Single
     * [x] Cluster join
     * [x] Client join
+* [ ] ES
+* [ ] Zk
+* [ ] Kafka
 * [x] Nginx
 * [ ] Promethues
     * [ ] promethues service
