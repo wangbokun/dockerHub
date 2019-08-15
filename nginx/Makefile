@@ -17,6 +17,7 @@ run:
 	-v ${SHARE_PATH}/logs:/var/log/nginx  -d ${DOCKER_NAME}:${APP_VER} nginx
 	
 
+
 push:
 	docker tag  ${DOCKER_NAME}:${APP_VER} ${Hub_Addr}/${DOCKER_NAME}:${APP_VER}
 
