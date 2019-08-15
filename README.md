@@ -13,7 +13,10 @@
 * [x] Mongodb
 * [ ] ES
 * [ ] Zk
-* [ ] Consoul
+* [x] Consoul
+    * [x] Single
+    * [x] Cluster join
+    * [x] Client join
 * [ ] Nginx
 * [ ] Promethues
     * [ ] promethues service
